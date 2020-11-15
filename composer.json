@@ -1,0 +1,14 @@
+{
+  "name": "paniclong/url-minifier",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Akbar Dzhuraev",
+      "email": "dzhuraev@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  }
+}
