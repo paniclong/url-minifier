@@ -24,6 +24,8 @@ WORKDIR /var/www/url-minifier
 
 COPY . .
 
+RUN chmod 777 /var/log/
+
 RUN composer install -o --no-dev
 
 EXPOSE 9000

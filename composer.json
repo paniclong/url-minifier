@@ -1,14 +1,30 @@
 {
-  "name": "paniclong/url-minifier",
-  "type": "project",
-  "authors": [
-    {
-      "name": "Akbar Dzhuraev",
-      "email": "dzhuraev@yandex.ru",
-      "role": "Developer"
+    "name": "paniclong/url-minifier",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Akbar Dzhuraev",
+            "email": "dzhuraev@yandex.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "davedevelopment/phpmig": "^1.7",
+        "php-di/php-di": "^6.3",
+        "league/route": "^4.5",
+        "laminas/laminas-diactoros": "^2.4",
+        "laminas/laminas-httphandlerrunner": "^1.2",
+        "illuminate/database": "^8.14",
+        "pimple/pimple": "^3.3",
+        "monolog/monolog": "^2.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "UrlMinifier\\": "src/"
+        }
     }
-  ],
-  "require": {
-    "php": "^7.4"
-  }
 }

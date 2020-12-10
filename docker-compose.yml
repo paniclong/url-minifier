@@ -8,6 +8,11 @@ services:
       dockerfile: ./docker/fpm/Dockerfile
     volumes:
       - ./:/var/www/url-minifier:rw,cached
+    environment:
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'pass'
+      MYSQL_ROOT_PASSWORD: '12345'
+      MYSQL_DATABASE: 'service'
     ports:
       - '9000:9000'
 
